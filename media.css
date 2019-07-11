@@ -1,0 +1,25 @@
+@media (max-width: 700px) {
+  .header_btn {
+    float: none;
+  }
+
+  .header_contacts {
+    text-align: center;
+  }
+
+  .heade_btn:before {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .header_btn::before {
+    display: block;
+  }
+}
+
+@media (max-width: 375px) {
+  .header_email {
+    padding-left: 30px;
+  }
+}
